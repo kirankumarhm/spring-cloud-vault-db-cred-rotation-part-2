@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-vault-database-cred-rotate
+  cloud:
+    vault:
+      #      enabled: false
+      scheme: http
+      uri: http://localhost:8200
+      token: hvs.OoYTWLHCJDAfEortz7ZroWS2
+      fail-fast: true
+      database:
+        enabled: true
+        role: myrole
